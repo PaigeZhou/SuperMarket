@@ -10,6 +10,9 @@ namespace SuperMarket
     {
         static void Main(string[] args)
         {
+            Manager m = new Manager();
+            m.zcd();
+            Console.ReadKey();
         }
     }
 }
